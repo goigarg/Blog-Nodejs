@@ -1,0 +1,58 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+    color: white;
+    background-color: #2dcead;
+}
+
+.footer p {
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.box {
+    width: 100%;
+}
+
+input {
+    width: 80vh;
+    height: 30px;
+    margin-bottom: 8px;
+}
+textarea {
+    width: 80vh;
+    height: 15vh;
+    margin-bottom: 8px;
+}
+button {
+    height: 5vh;
+    width: 20vh;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}

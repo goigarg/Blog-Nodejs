@@ -1,0 +1,15 @@
+<%- include('include/header'); -%>
+    <br>
+    <ul>
+   <% myArticles.forEach( (article) => { %>
+      <li>
+        <h4> <%= article.title; %> </h4> 
+        <p><%=  article.content.substring(0, 100); %>
+         <a href="/post/<%= article._id %>">Read More...</a> </p> 
+        </li>
+        <%  });  %>   
+      </ul>
+
+</body>
+</html>
+<%- include('include/footer'); -%>

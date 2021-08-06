@@ -1,0 +1,20 @@
+<%- include('include/header'); -%>
+    <h2>Compose</h2>
+    <div class="container">
+        <form action="/compose" method="post">
+            <div class="box">
+                    <p>Title</p>
+                    <input type="text" name="title">
+             </div>
+            <div class="box">
+            <p>Content</p>
+                <textarea name="content"></textarea>
+
+               <div> <button>Submit</button> </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
+<%- include('include/footer'); -%>
